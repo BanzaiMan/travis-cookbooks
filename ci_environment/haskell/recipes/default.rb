@@ -36,3 +36,7 @@ when ["ubuntu", "12.04"] then
   include_recipe "haskell::platform_package"
 end
 
+package 'haskell-platform-doc' do
+  action :install
+end
+
